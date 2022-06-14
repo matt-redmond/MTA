@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww37900\viewh21300\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Abstract\
+\
+The goal of this project is to see if MTA turnstile data can be used to analyze changes in foot traffic at different station from a pre-Covid time period to the current day to inform retailers decision-making.  The MTA data was gathered, aggregated, and analyzed to provide comparisons of 2019 and 2022 data.  The data was sorted to provide the stations with the most impactful percent change from 2019.\
+\
+Design\
+\
+The question for this project was whether the MTA turnstile data could help retail establishments understand how changes in foot traffic could affect their business.  Covid has changed the way people work, travel, and commute and quantifying those changes can help businesses react to the new environment.  This project sought to find the MTA stations that had the most changes in entries and exits to help understand where businesses could be affected. \
+\
+Data\
+\
+The dataset is based on MTA turnstile from the first four months of 2019 as well as the first four months of 2022.  Data consists of a running total of entries and exits at the level of individual turnstile by date and time of day.  The dataset includes the additional.dimensions of station, line names, divisions, and descriptions. \
+\
+Algorithms\
+\
+The data was cleaned and aggregated to provide a daily total of both entries and exits for stations.  The cleaned data was then aggregated in different way to look at time series, overall percent change and to focus in on individual stations.  \
+\
+Tools\
+\
+Tools used included SQL to build a database and table for the original data and to enable Python to pull the data through SQLAlchemy.  Python was used for data analysis with a heavy reliance on Pandas.  Both Matplotlib and Seaborn were used to create visualizations.\
+\
+Communication\
+\
+Visuals presented included a line chart using a weekly time series to compare total entries and exits from 2019 to 2022.  Also, a box plot was presented based on percentage change to show that although the majority of percentage change was between -50% to - 100% there were significant outliers which might be the most important data relating to the business questions.  Finally, a bar chart was shown which showed the Top Ten increases and decreases by percentage change to show the stations that the most impactful change.\
+\
+\
+}

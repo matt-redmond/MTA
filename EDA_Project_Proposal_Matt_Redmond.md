@@ -1,0 +1,3 @@
+Can we compare pre-COVID public transit data to current public transit data to see if retailers should be shifting their locations or staffing at their locations to meet the demand of current foot traffic trends?  This project will analyze the differences in MTA turnstile data from the first 4 months of 2019 to the first 4 months of 2022.  We will specifically compare year over year data to view the seasonality and focus on the trends.  
+
+The plan is to use SQLite and Pandas as well as Seaborn and Matplotlib to create the analysis.  There is a possibility to use Tableau as well if needed.  The MVP will contain some preliminary graphs and analysis of changes in turnstile usage at different stations as well a some initial conclusions.  
